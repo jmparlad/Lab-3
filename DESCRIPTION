@@ -3,8 +3,7 @@ Type: Package
 Title: Euclidean and Dijkstra algorithms
 Version: 1.0
 Date: 2022-09-05
-Author: Nikolaus Stratil-Sauer and Juan Manuel Pardo
+Authors@R: Nikolaus Stratil-Sauer and Juan Manuel Pardo
 License: What license is it under?
 Description: Package for Lab3
-Maintainer: Nikolaus Stratil-Sauer and Juan Manuel Pardo
 RoxygenNote: 7.2.1
