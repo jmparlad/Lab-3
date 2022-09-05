@@ -3,8 +3,8 @@ Type: Package
 Title: Euclidean and Dijkstra algorithms
 Version: 1.0
 Date: 2022-09-05
-Authors@R: person("Nikolaus", email="niko.stratil@gmail.com",
-  role=c("aut","cre"))
-License: What license is it under?
-Description: Package for Lab3
+Author: Nikolaus Stratil-Sauer <niko.stratil@gmail.com>
+Maintainer: Nikolaus Stratil-Sauer <niko.stratil@gmail.com>
+License: GPL (>=2)
+Description: Package for Lab3.
 RoxygenNote: 7.2.1
