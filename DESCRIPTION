@@ -8,3 +8,6 @@ Maintainer: Nikolaus Stratil-Sauer <niko.stratil@gmail.com>
 License: GPL (>=2)
 Description: Package for Lab3.
 RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
