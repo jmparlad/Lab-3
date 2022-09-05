@@ -1,9 +1,7 @@
 Package: Lab3Algorithms
 Type: Package
-Title: What the package does (short line)
+Title: Euclidean and Dijkstra algorithms
 Version: 1.0
 Date: 2022-09-05
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Nikolaus Stratil-Sauer and Juan Manuel Pardo
 License: What license is it under?
