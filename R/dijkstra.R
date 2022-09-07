@@ -1,9 +1,11 @@
 dijkstra <- function(graph, init_node){
   # Check that the arguments are correct
-  stopifnot(is.numeric(init_node), ! init_node %in% graph[1])
+  stopifnot(is.numeric(init_node), init_node %in% c(graph$v1,graph$v2))
+  stopifnot(is.data.frame(graph),is.numeric(graph$v1),is.numeric(graph$v2),
+            is.numeric(graph$w))
   
   # Get the number of nodes
-  n <- max(graph[1])
+  n <- length(unique(c(graph$v1,graph$v2)))
   
   # Vector preallocation
   dist <- numeric(n)
@@ -19,7 +21,7 @@ dijkstra <- function(graph, init_node){
   
   # Set distance to 0 for the initial node
   dist[init_node] <- 0
-  
+
   while (length(Q) >= 1){
     ## Try length
     # Find the node with the minimum distance
@@ -30,12 +32,12 @@ dijkstra <- function(graph, init_node){
     neigh_nodes <- c()
     nnp <- c()
     for (i in 1:length(graph[[1]])){
-      if (u == graph[i,1])
+      if (u == graph[i,1]){
         ## THE FUNCTION WORKS DIFFERENTLY WHEN DELETING THE PRINT???
-        print(graph[i,2])
         neigh_nodes <- append(neigh_nodes, graph[i,2])
         # Save the neighbor node positions from the graph data frame
         nnp <- append(nnp, i)
+      }
     }
     # Find and save the minimum distances
     p <- 0
@@ -48,7 +50,6 @@ dijkstra <- function(graph, init_node){
       if (alt < dist[graph[v,2]]){
         dist[neigh_nodes[p]] <- alt
         prev[neigh_nodes[p]] <- u
-        print(dist)
       }
     }
   }
