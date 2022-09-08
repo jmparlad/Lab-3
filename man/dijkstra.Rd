@@ -16,7 +16,10 @@ The vector \code{dist} containing the minimum distance from the
 initial node to the rest of nodes of the graph..
 }
 \description{
-
+This function computes the shortest path between nodes in a graph using 
+the Dijkstra algorithm.
+For specifics about the algorithm, refer to the wikipedia page
+\url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 }
 \examples{
 dijkstra(graph = data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
