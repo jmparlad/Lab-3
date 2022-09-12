@@ -3,7 +3,7 @@
 #' This function computes the shortest path between nodes in a graph using 
 #' the Dijkstra algorithm.
 #' For specifics about the algorithm, refer to the wikipedia page
-#' \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
+#' \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 #'
 #' @param graph Data frame with the edge nodes and the edge distance
 #' @param init_node Initial node to compute the distances
