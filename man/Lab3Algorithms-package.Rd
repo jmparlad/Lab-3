@@ -3,33 +3,18 @@
 \alias{Lab3Algorithms}
 \docType{package}
 \title{
-\packageTitle{Lab3Algorithms}
+Lab 3 Algorithms
 }
 \description{
-\packageDescription{Lab3Algorithms}
-}
-\details{
-
-The DESCRIPTION file:
-\packageDESCRIPTION{Lab3Algorithms}
-\packageIndices{Lab3Algorithms}
-%~~ An overview of how to use the package, including the most important functions ~~
+This package contains the algorithms euclidean() and dijkstra() to solve Lab 3.
 }
 \author{
-\packageAuthor{Lab3Algorithms}
-
-Maintainer: \packageMaintainer{Lab3Algorithms}
+Juan Manuel Pardo and Nikolaus Stratil-Sauer
 }
 \references{
-%~~ Literature or other references for background information ~~
-}
-%~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-%~~ documentation directory ~~
-\keyword{ package }
-\seealso{
-%~~ Optional links to other man pages, e.g. ~~
-%~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+Euclidean algorithm: \url{https://en.wikipedia.org/wiki/Euclidean_algorithm} 
+Dijkstra algorithm: \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }
 \examples{
-%~~ simple examples of the most important functions ~~
+euclidean(100,1000) returns the gcd of 10
 }
