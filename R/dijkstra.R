@@ -38,7 +38,6 @@ dijkstra <- function(graph, init_node){
   dist[init_node] <- 0
 
   while (length(Q) >= 1){
-    ## Try length
     # Find the node with the minimum distance
     u <- Q[which.min(dist[Q])]
     # Delete the corresponding node index
@@ -48,7 +47,6 @@ dijkstra <- function(graph, init_node){
     nnp <- c()
     for (i in 1:length(graph[[1]])){
       if (u == graph[i,1]){
-        ## THE FUNCTION WORKS DIFFERENTLY WHEN DELETING THE PRINT???
         neigh_nodes <- append(neigh_nodes, graph[i,2])
         # Save the neighbor node positions from the graph data frame
         nnp <- append(nnp, i)
@@ -61,7 +59,6 @@ dijkstra <- function(graph, init_node){
       p <- p + 1
       alt <- dist[u] + graph[v,3]
       
-      ## CHECK THE IF LOOP
       if (alt < dist[graph[v,2]]){
         dist[neigh_nodes[p]] <- alt
         prev[neigh_nodes[p]] <- u
