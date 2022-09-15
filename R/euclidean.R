@@ -7,6 +7,7 @@
 #'
 #' @param a Number a
 #' @param b Number b
+#' @export
 #' @return The gcd of \code{a} and \code{b}.
 #' @examples
 #' euclidean(1000, 100)

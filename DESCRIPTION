@@ -4,7 +4,7 @@ Title: Euclidean and Dijkstra algorithms
 Version: 1.0
 Date: 2022-09-05
 Author: Nikolaus Stratil-Sauer <niko.stratil@gmail.com> , Juan Manuel Pardo <juapa351@student.liu.se>
-Maintainer: Nikolaus Stratil-Sauer <niko.stratil@gmail.com>
+Maintainer: Nikolaus Stratil-Sauer <niko.stratil@gmail.com>, Juan Manuel Pardo <juapa351@student.liu.se>
 License: GPL (>=2)
 Description: Package for Lab3.
 RoxygenNote: 7.2.1

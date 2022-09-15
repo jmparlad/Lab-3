@@ -7,6 +7,7 @@
 #'
 #' @param graph Data frame with the edge nodes and the edge distance
 #' @param init_node Initial node to compute the distances
+#' @export
 #' @return The vector \code{dist} containing the minimum distance from the
 #' initial node to the rest of nodes of the graph..
 #' @examples
